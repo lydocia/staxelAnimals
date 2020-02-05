@@ -1,0 +1,123 @@
+{
+  "code": "staxel.treasure.storeShelf.petStoreItems",
+  "additive": true,
+  "entries": [
+    {
+      "weight": 1,
+      "items": [
+        {
+          "code": "xable.animals.dogs.house.beagle",
+		  "quantity": 1
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "code": "xable.animals.dogs.house.collie",
+		  "quantity": 1
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "code": "xable.animals.dogs.house.dalmatian",
+		  "quantity": 1
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "code": "xable.animals.dogs.house.husky",
+		  "quantity": 1
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "code": "xable.animals.dogs.house.pomeranian",
+		  "quantity": 1
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "code": "xable.animals.cats.house.bombay",
+		  "quantity": 1
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "code": "xable.animals.dogs.house.egyptian",
+		  "quantity": 1
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "code": "xable.animals.dogs.house.foreignwhite",
+		  "quantity": 1
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "code": "xable.animals.dogs.house.greytabby",
+		  "quantity": 1
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "code": "xable.animals.dogs.house.orangetabby",
+		  "quantity": 1
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "code": "xable.animals.dogs.house.ragdoll",
+		  "quantity": 1
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "code": "xable.animals.dogs.house.siamese",
+		  "quantity": 1
+        }
+      ]
+    },
+	{
+      "weight": 1,
+      "items": [
+        {
+          "code": "xable.animals.dogs.house.tuxedo",
+		  "quantity": 1
+        }
+      ]
+    }
+  ] //enttries
+}

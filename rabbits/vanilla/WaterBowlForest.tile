@@ -1,0 +1,26 @@
+{
+    "__inherits": "staxel/docks/PetHouse.config",
+    "code": "xable.animals.rabbits.house.forest",
+    "stackSizeLimit": 1,
+    "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+    "categories": [
+        "basic",
+        "furniture",
+        "pet",
+        "rabbit"
+    ],
+    "compound": {"size": {
+        "x": 2,
+        "y": 2,
+        "z": 3
+    }},
+    "voxels": "mods/Xable's Animals/rabbits/vanilla/WaterBowlForest.qb",
+    "searchable": false,
+    "pricing": {
+        "buyable": true,
+        "catalogueUnlockedFromStart": false,
+        "sellPrice": 2000,
+        "value": 5000,
+        "appearsInCatalogue": false
+    }
+}

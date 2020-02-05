@@ -1,0 +1,211 @@
+{
+  "__inherits": "staxel/farmAnimals/farmAnimal.config",
+  "code": "xable.animals.dogs.dalmatian",
+  "randomPet": true,
+  "names": [
+    "Rover",
+    "Toby",
+    "Hamish",
+    "August",
+    "Beatrice",
+    " Clara",
+    "Dora",
+    "Edith",
+    "Harriet",
+    "Hazel",
+    "Kay",
+    "Lucy",
+    "Opal",
+    "Olive",
+    "Vera",
+    "Julius",
+    "Wilfred",
+    "Howard",
+    "Milton",
+    "Seymour",
+    "Walter",
+    "Spot",
+    "Buddy",
+    "Bandit",
+    "Fido",
+    "Charlie",
+    "Lady",
+    "Sparky",
+    "Fluffy",
+    "Rex",
+    "Teddy",
+    "Scout",
+    "Rufus"
+  ],
+  "idleBehaviours": [
+    "staxel.petBehaviour.Idle"
+  ],
+  "spawnBehaviours": [
+    "staxel.farmAnimalBehaviour.Spawn"
+  ],
+  "milkingBehaviours": [],
+  "shearingBehaviours": [],
+  "playBehaviours": [
+    "staxel.petBehaviour.Fetch",
+    "staxel.petBehaviour.Command"
+  ],
+  "unhappyBehaviours": [
+    "staxel.farmAnimalBehaviour.Unhappy"
+  ],
+  "paramAnimator": "staxel.paramAnimation.PetEat",
+  "eatPartcles": "staxel.particle.farmAnimals.PetEat",
+  "despawnBehaviourKind": [
+    "staxel.farmAnimalBehaviour.Catatonic"
+  ],
+  "models": [
+    "staxel/pets/dog/Dalmatian.qb"
+  ],
+  "nudeModels": [],
+  "moods": {
+    "great": [
+      "staxel.accessories.eyes.Dog.great"
+    ],
+    "good": [
+      "staxel.accessories.eyes.Dog.happy"
+    ],
+    "normal": [
+      "staxel.accessories.eyes.Dog.normal"
+    ],
+    "bad": [
+      "staxel.accessories.eyes.Dog.bad"
+    ],
+    "horrible": [
+      "staxel.accessories.eyes.Dog.horrible"
+    ],
+    "sleeping": [
+      "staxel.accessories.eyes.Dog.sleeping"
+    ]
+  },
+  "moodOverrides": [
+    {
+      "model": "staxel/pets/dog/Dalmatian.qb",
+      "moods": {
+        "great": [
+          "staxel.accessories.eyes.Dalmatian.great"
+        ],
+        "good": [
+          "staxel.accessories.eyes.Dalmatian.happy"
+        ],
+        "normal": [
+          "staxel.accessories.eyes.Dalmatian.normal"
+        ],
+        "bad": [
+          "staxel.accessories.eyes.Dalmatian.bad"
+        ],
+        "horrible": [
+          "staxel.accessories.eyes.Dalmatian.horrible"
+        ],
+        "sleeping": [
+          "staxel.accessories.eyes.Dalmatian.sleeping"
+        ]
+      }
+    }
+  ],
+  "crateTile": "",
+  "petHouse": "xable.animals.dogs.house.dalmatian",
+  "designs": [
+    {
+      "_version": 2,
+      "Species": "staxel.species.Dog",
+      "Gender": "female",
+      "Personality": "staxel.personality.Dog",
+      "LeftHanded": false,
+      "Shoes": {
+        "model": "",
+        "palette": ""
+      },
+      "Hair": {
+        "model": "",
+        "palette": ""
+      },
+      "Eyes": {
+        "model": "",
+        "palette": ""
+      },
+      "Shirt": {
+        "model": "",
+        "palette": ""
+      },
+      "Trousers": {
+        "model": "",
+        "palette": ""
+      },
+      "Model": {
+        "model": "",
+        "palette": ""
+      }
+    }
+  ],
+  "happy": {
+    "emotes": [],
+    "sounds": [
+      "staxel.sounds.pets.Dog.happy"
+    ]
+  },
+  "unhappy": {
+    "emotes": [],
+    "sounds": [
+      "staxel.sounds.pets.Dog.happy"
+    ]
+  },
+  "sitting": {
+    "emotes": [
+      "staxel.emote.pets.Sit"
+    ]
+  },
+  "pickUp": {
+    "emotes": [
+      "staxel.emote.pets.PickUp"
+    ]
+  },
+  "begging": {
+    "emotes": []
+  },
+  "rolling": {
+    "emotes": [
+      "staxel.emote.pets.Rollover"
+    ]
+  },
+  "eating": {
+    "emotes": [
+      "staxel.emote.pets.Eat"
+    ]
+  },
+  "standingResistance": 0.3,
+  "airResistance": 0.1,
+  "movementVelocity": 5.0,
+  "jumpForce": 1800,
+  "wanderRadius": 10.0,
+  "maxFollowDistance": 20.0,
+  "animationParameters": {
+    "WalkingStrideCycleLength": 0.5,
+    "SwimmingStrideCycleLength": 0.5,
+    "MaxWalkingSpeed": 2.0,
+    "RunningStrideCycleLength": 2.0,
+    "MinRunningSpeed": 3.0,
+    "AnimationJitterFactor": 1.0
+  },
+  "categories": [
+    "house",
+    "dog",
+    "kennel"
+  ],
+  "velocityRandomizationFactor": 0.05,
+  "turnSmoothingFactor": 0.1,
+  "pushedForce": 0.4,
+  "resistedPushedForce": 0.2,
+  "eatsFromHand": [],
+  "poops": [],
+  "eggs": [],
+  "milks": [],
+  "wools": [],
+  "feedKind": "petFood",
+  "grazes": false,
+  "eatsGrass": false,
+  "treasure": "staxel.treasure.PetFurniture"
+}

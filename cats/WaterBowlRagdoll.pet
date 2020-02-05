@@ -1,0 +1,216 @@
+{
+  "__inherits": "staxel/farmAnimals/farmAnimal.config",
+  "code": "xable.animals.cats.house.ragdoll",
+  "randomPet": true,
+  "names": [
+    "Cat",
+    "Kat",
+    "Kitten",
+    "Kitty",
+    "Nyaa",
+    "Nyanko",
+    "Tiger",
+    "Tom",
+    "Henry",
+    "Felix",
+    "Snoo",
+    "Furball",
+    "Oliver",
+    "Simba",
+    "Jasper",
+    "Blanche",
+    "Celia",
+    "Ida",
+    "Iris",
+    "Ivy",
+    "Winifred",
+    "Harvey",
+    "Harold",
+    "Gilbert",
+    "Harry",
+    "Mason",
+    "Shadow",
+    "Snowball",
+    "Missy",
+    "Bella",
+    "Chloe",
+    "Luna",
+    "Lily",
+    "Peanut",
+    "Loki",
+	"Tardarsauce"
+  ],
+  "idleBehaviours": [
+    "staxel.petBehaviour.Idle"
+  ],
+  "spawnBehaviours": [
+    "staxel.farmAnimalBehaviour.Spawn"
+  ],
+  "milkingBehaviours": [],
+  "shearingBehaviours": [],
+  "playBehaviours": [
+    "staxel.petBehaviour.Fetch",
+    "staxel.petBehaviour.Command"
+  ],
+  "unhappyBehaviours": [
+    "staxel.farmAnimalBehaviour.Unhappy"
+  ],
+  "despawnBehaviourKind": [
+    "staxel.farmAnimalBehaviour.Catatonic"
+  ],
+  "paramAnimator": "staxel.paramAnimation.PetEat",
+  "eatPartcles": "staxel.particle.farmAnimals.PetEat",
+  "models": [
+    "staxel/pets/cat/FloofyCat.qb"
+  ],
+  "nudeModels": [],
+  "moods": {
+    "great": [
+      "staxel.accessories.eyes.BlackCat.great"
+    ],
+    "good": [
+      "staxel.accessories.eyes.BlackCat.happy"
+    ],
+    "normal": [
+      "staxel.accessories.eyes.BlackCat.normal"
+    ],
+    "bad": [
+      "staxel.accessories.eyes.BlackCat.bad"
+    ],
+    "horrible": [
+      "staxel.accessories.eyes.BlackCat.horrible"
+    ],
+    "sleeping": [
+      "staxel.accessories.eyes.BlackCat.sleeping"
+    ]
+  },
+  "moodOverrides": [
+    {
+      "model": "staxel/pets/cat/FloofyCat.qb",
+      "moods": {
+        "great": [
+          "staxel.accessories.eyes.FloofyCat.great"
+        ],
+        "good": [
+          "staxel.accessories.eyes.FloofyCat.happy"
+        ],
+        "normal": [
+          "staxel.accessories.eyes.FloofyCat.normal"
+        ],
+        "bad": [
+          "staxel.accessories.eyes.FloofyCat.bad"
+        ],
+        "horrible": [
+          "staxel.accessories.eyes.FloofyCat.horrible"
+        ],
+        "sleeping": [
+          "staxel.accessories.eyes.FloofyCat.sleeping"
+        ]
+      }
+    }
+  ],
+  "crateTile": "",
+  "petHouse": "xable.animals.cats.house.ragdoll",
+  "designs": [
+    {
+      "_version": 2,
+      "Species": "staxel.species.Cat",
+      "Gender": "female",
+      "Personality": "staxel.personality.Cat",
+      "LeftHanded": false,
+      "Shoes": {
+        "model": "",
+        "palette": ""
+      },
+      "Hair": {
+        "model": "",
+        "palette": ""
+      },
+      "Eyes": {
+        "model": "",
+        "palette": ""
+      },
+      "Shirt": {
+        "model": "",
+        "palette": ""
+      },
+      "Trousers": {
+        "model": "",
+        "palette": ""
+      },
+      "Model": {
+        "model": "",
+        "palette": ""
+      }
+    }
+  ],
+  "happy": {
+    "emotes": [],
+    "sounds": [
+      "staxel.sounds.pets.Cat.happy"
+    ]
+  },
+  "unhappy": {
+    "emotes": [],
+    "sounds": [
+      "staxel.sounds.pets.Cat.happy"
+    ]
+  },
+  "sitting": {
+    "emotes": [
+      "staxel.emote.pets.Sit"
+    ]
+  },
+  "pickUp": {
+    "emotes": [
+      "staxel.emote.pets.PickUp"
+    ]
+  },
+  "begging": {
+    "emotes": [
+      "staxel.emote.pets.Beg"
+    ]
+  },
+  "rolling": {
+    "emotes": [
+      "staxel.emote.pets.Rollover"
+    ]
+  },
+  "eating": {
+    "emotes": [
+      "staxel.emote.pets.Eat"
+    ]
+  },
+  "standingResistance": 0.3,
+  "airResistance": 0.1,
+  "movementVelocity": 5.0,
+  "jumpForce": 1800,
+  "wanderRadius": 10.0,
+  "maxFollowDistance": 20.0,
+  "animationParameters": {
+    "WalkingStrideCycleLength": 0.5,
+    "SwimmingStrideCycleLength": 0.5,
+    "MaxWalkingSpeed": 2.0,
+    "RunningStrideCycleLength": 2.0,
+    "MinRunningSpeed": 3.0,
+    "AnimationJitterFactor": 1.0
+  },
+  "categories": [
+    "house",
+    "cat"
+  ],
+  "velocityRandomizationFactor": 0.05,
+  "turnSmoothingFactor": 0.1,
+  "pushedForce": 0.4,
+  "resistedPushedForce": 0.2,
+  "eatsFromHand": [],
+  "poops": [],
+  "eggs": [],
+  "milks": [],
+  "wools": [],
+  "feedKind": "petFood",
+  "grazes": false,
+  "eatsGrass": false,
+  "sleepy": true,
+  "treasure": "staxel.treasure.PetFurniture"
+}

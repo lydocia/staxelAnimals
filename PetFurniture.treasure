@@ -1,0 +1,42 @@
+{
+  "code": "staxel.treasure.PetFurniture",
+  "additive": true,
+  "entries": [
+    {
+      "weight": 1,
+      "items": [
+        {
+          "code": "xable.rugs.sets.paw",
+		  "quantity": 1
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+          "code": "xable.library.bookshelf.paw",
+		  "quantity": 1
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+          "code": "xable.library.books.paw1",
+		  "quantity": 1
+        }
+      ]
+    },  
+    {
+      "weight": 1,
+      "items": [
+        {
+          "code": "xable.library.books.paw2",
+		  "quantity": 1
+        }
+      ]
+    }
+  ] //enttries
+}
