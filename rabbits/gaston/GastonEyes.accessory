@@ -1,0 +1,11 @@
+{
+  "availableInChargen": false,
+  "bodyType": [
+    "staxel.bodyType.Rabbit"
+  ],
+  "code": "xable.animals.rabbits.gaston.eyes",
+  "kind": "Eyes",
+  "model": "mods/Xable's Animals/rabbits/gaston/GastonEyes.qb",
+  "palettes": [],
+  "searchable": false
+}

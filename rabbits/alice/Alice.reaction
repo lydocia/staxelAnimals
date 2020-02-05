@@ -1,0 +1,28 @@
+{
+  "code": "xable.animals.rabbits.house.alice.reaction",
+  "recipeStep": "carve",
+  "reagents": [
+    {
+	  "kind": "staxel.item.Placer",
+      "tile": "staxel.item.crafting.YellowPetal",
+	  "quantity": 1
+    },
+    {
+	  "kind": "staxel.item.Placer",
+      "tile": "staxel.item.crafting.WhitePetal",
+	  "quantity": 3
+    },
+  ],
+  "results": [
+    {
+	  "kind": "staxel.item.Placer",
+      "tile": "xable.animals.rabbits.house.alice",
+	  "quantity": 1
+    }
+  ],
+  "duration": 5,
+  "triggerDurationCraftManually": true,
+  "effectTrigger": "staxel.effect.DockItem",
+  "effect": "staxel.effect.crafting.Carve",
+  "processDrawable": "lumber"
+}

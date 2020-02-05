@@ -1,0 +1,11 @@
+{
+  "availableInChargen": false,
+  "bodyType": [
+    "staxel.bodyType.Rabbit"
+  ],
+  "code": "xable.animals.rabbits.arthur.eyes",
+  "kind": "Eyes",
+  "model": "mods/Xable's Animals/rabbits/arthur/ArthurEyes.qb",
+  "palettes": [],
+  "searchable": false
+}
