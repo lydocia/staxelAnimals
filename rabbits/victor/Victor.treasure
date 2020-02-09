@@ -1,0 +1,14 @@
+{
+  "code": "xable.animals.rabbits.victor.treasure",
+  "entries": [
+    {
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "staxel.tileObject.themedfurniture.pet.PawArmChair"
+        }
+      ]
+    },
+  ] //entries
+}
